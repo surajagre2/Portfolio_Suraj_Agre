@@ -1,0 +1,383 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  color: rgb(253, 243, 231);
+}
+.fcolor {
+  color: #00bae9;
+}
+body {
+    margin: 0px 20px;
+    background-color: hsl(199, 100%, 8%);
+}
+#navcontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+#logo {
+  font-size: 35px;
+}
+li {
+  display: inline;
+}
+#menubar {
+  display: none;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+ li a {
+  padding: 8px 15px;
+  font-size: 22px;
+  margin-left: 10px;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover{
+    color: #00bae9;
+}
+#home {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 80vh;
+}
+#homesection
+{
+    background-image: url(asset/background.png);
+    background-repeat: no-repeat;
+    background-position:bottom right;
+    background-size: contain;
+}
+#mname
+{
+    font-size: 50px;
+    margin-bottom: 7px;
+}
+
+#letstalk
+{
+    margin-left: 30px;
+}
+.icon
+{
+  padding: 10px 10px 10px 10px;
+}
+.homechild {
+  flex-basis: 50%;
+}
+#homefooter {
+  display: flex;
+  justify-content: flex-start;
+  align-items: end;
+}
+#about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+#aboutSection,#educationSection,#contactsection,#skillsSection
+{
+      padding: 20px 0px;
+}
+.heading
+{
+    font-size: 50px;
+}
+#aboutimg {
+  background-image: url(asset/pro11.png);
+  width: 200px;
+  height: 200px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 100px;
+  border: 2px solid #00bae9;
+}
+.aboutdescription,
+.aboutdesignation {
+  text-align: center;
+}
+#education {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+#header
+{
+  position: sticky;
+  top: 0px;
+  background-color: hsl(199, 100%, 8%);
+  padding: 10px 0px;
+}
+.designationhead
+{
+    font-size: 30px;
+    margin-bottom: 7px;
+}
+::placeholder
+{
+    color: rgb(253, 243, 231);
+    font-size: 14px;
+}
+.descriptionfont
+{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.description
+{
+    font-size: 18px;
+}
+.educationchild {
+  width: 40%;
+  border: 2px solid #00bae9;
+  border-radius: 4px;
+  padding: 20px;
+}
+.heading {
+  text-align: center;
+  padding-bottom: 20px;
+}
+#skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 60px;
+}
+.skillsdivchild {
+  flex-basis: 50%;
+ 
+}
+.skilldiv {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+}
+.skilltype {
+  border: 2px solid #00bae9;
+  padding: 0px 20px 20px 20px;
+  border-radius: 4px;
+}
+.perdiv {
+  padding: 5px;
+  border: 2px solid #00bae9;
+  border-radius: 4px;
+}
+#div1,
+#div2,
+#div3,
+#div4,
+#div5,
+#div6,
+#div7,
+#div8 {
+  height: 10px;
+  background-color: #00bae9;
+  border-radius: 4px;
+}
+#div1 {
+  width: 90%;
+}
+#div2 {
+  width: 80%;
+}
+#div3 {
+  width: 65%;
+}
+#div4 {
+  width: 80%;
+}
+#div5 {
+  width: 85%;
+}
+#div6 {
+  width: 68%;
+}
+#div7 {
+  width: 60%;
+}
+#div8 {
+  width: 55%;
+}
+#form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: auto;
+}
+[type="text"],
+[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 0px 0px 10px 0px;
+  border-radius: 4px;
+  border: 2px solid #00bae9;
+  background-color: hsl(199, 100%, 8%);
+}
+[type="submit"] {
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+}
+.but {
+  padding: 10px 27px 10px 27px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 3px solid #00bae9;
+  color: #00bae9;
+  font-weight: bold;
+  background: none;
+}
+.fa-brands {
+  border-radius: 4px;
+  color:  #00bae9; 
+  font-size: 40px;
+}
+.but:hover {
+  background-color: #00bae9;
+  border: none;
+  color: hsl(199, 100%, 8%);
+  border: 3px solid #00bae9;
+  cursor: pointer;
+}
+#imgg
+{
+  display: none;
+}
+@media screen and (max-width: 1040px) {
+  ul
+  {
+    display: none;
+  }
+  #menubar {
+    display: inline;
+  }
+  body {
+    background-color:  hsl(199, 100%, 8%);
+    padding: 0px 60px;
+  }
+  #home {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    gap: 10px;
+  }
+  #imgg
+  {
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    background-image: url(asset/pro11.png);
+    background-color: hsl(199, 100%, 8%);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 100px;
+    border: 2px solid #00bae9;
+  }
+  .homechild {
+    width: 100%;
+  }
+  #homesection
+  {
+    background-image: none;
+  }
+  #mname
+  {
+    text-align: center;
+    font-size: 40px;
+  }
+  .designationhead
+  {
+     text-align: center;
+     font-size: 30px;
+  }
+  .descriptionfont
+  {
+    text-align: center;
+  }
+  #homefooter {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+  .educationchild {
+    width: 80%;
+    border: 2px solid #00bae9;
+    border-radius: 4px;
+    padding: 20px;
+  }
+  #button
+  {
+    display: flex;
+    justify-content: center;
+  }
+  #form {
+    width: 80%;
+  }
+  #skills {
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 760px) {
+  body {
+    background-color:  hsl(199, 100%, 8%);
+    padding: 0px 30px;
+  }
+  .educationchild {
+    width: 90%;
+    border: 2px solid #00bae9;
+    border-radius: 4px;
+    padding: 20px;
+  }
+  #form {
+    width: 80%;
+  }
+  #skills {
+    gap: 10px;
+  }
+}
+@media screen and (max-width: 570px) {
+  body {
+    background-color:  hsl(199, 100%, 8%);
+    padding: 0px 5px;
+  }
+  #skills {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    gap: 20px;
+  }
+  .educationchild {
+    width: 90%;
+  }
+  #form {
+    width: 90%;
+  }
+  #mname
+  {
+    font-size: 30px;
+  }
+  .designationhead
+  {
+     font-size: 22px;
+  }
+  .heading {
+    font-size: 35px;
+   
+  }
+}
